@@ -22,13 +22,13 @@ export default function SectionWelcome() {
             justifyContent: 'center',
             alignItems: 'center'
         }}>
-            <Container fixed sx={{display: 'flex', flexDirection: 'column'}}>
-                <Grid container spacing={0} sx={{ width: '100%', mb: {md: '160px', xs: '0'} }}>
+            <Container fixed sx={{ display: 'flex', flexDirection: 'column' }}>
+                <Grid container spacing={0} sx={{ width: '100%', mb: { md: '160px', xs: '0' } }}>
                     <Grid item xs={12} md={6} sx={{ width: '100%' }}>
-                        <h1 style={{ color: 'yellow', fontSize: '36px', textShadow: '4px -1px 1px black', textAlign: {md: 'left', xs: 'center'}, lineHeight: '47px' }}>Do i have time?</h1>
-                        <h1 style={{ color: '#FFFFFF', fontSize: '20px', textShadow: '4px -1px 1px black', textAlign: {md: 'left', xs: 'center'}, lineHeight: '30px' }}>Discover if you have time to play your games</h1>
+                        <Typography sx={{ color: 'yellow', fontSize: '36px', textShadow: '4px -1px 1px black', textAlign: { md: 'left', xs: 'center' }, lineHeight: '47px' }}>Do i have time?</Typography>
+                        <Typography sx={{ color: '#FFFFFF', fontSize: '20px', textShadow: '4px -1px 1px black', textAlign: { md: 'left', xs: 'center' }, lineHeight: '30px' }}>Discover if you have time to play your games</Typography>
                     </Grid>
-                    
+
                 </Grid>
             </Container>
 
