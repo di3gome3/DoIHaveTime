@@ -8,7 +8,7 @@ export default function AboutSection() {
     return (
         <>
             <Box sx={{ height: 'auto', bgcolor: '#0F3057', display: 'flex', flexDirection: 'column' }}>
-                <Container fixed sx={{display: 'flex', flexDirection: 'column', paddingTop: '60px', paddingBottom: '40px'}}>
+                <Container fixed sx={{display: 'flex', flexDirection: 'column', paddingTop: '40px', paddingBottom: '40px'}}>
                     <Grid container spacing={0}>
                         <Grid item xs={12} sx={{mb: '12px'}}>
                             <h2 style={{ color: 'yellow', textAlign: 'center', textShadow: '4px -1px 1px black', letterSpacing: '2px' }}>About</h2>
